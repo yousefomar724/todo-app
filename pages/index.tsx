@@ -1,9 +1,9 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import { SyntheticEvent, useState } from 'react'
 import axios from 'axios'
 
-const API_URL = 'http://localhost:3000/api/task'
+const BASE_URL = `${process.env.BASE_URL}`
+const API_URL = `${BASE_URL}/api/task`
 
 export const getServerSideProps = async () => {
   const { data } = await axios.get(API_URL)
