@@ -1,7 +1,6 @@
 // API route: http://localhost:3000/api/task
 
 import Tasks from '../../../models/task'
-import dbConnect from '../../../config/db'
 import { Request, Response } from 'express'
 import mongoose, { ConnectOptions } from 'mongoose'
 
