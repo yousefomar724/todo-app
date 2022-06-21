@@ -41,5 +41,4 @@ export default async (req: Request, res: Response) => {
       console.log(error)
     }
   }
-  // res.json({ msg: 'hi there' })
 }

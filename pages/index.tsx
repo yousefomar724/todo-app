@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { SyntheticEvent, useState } from 'react'
 import axios from 'axios'
 
-const API_URL = `${process.env.BASE_URL}/api/task`
+const API_URL = 'https://todo-app-steel-sigma.vercel.app/api/task'
 
 export const getServerSideProps = async () => {
   const { data } = await axios.get(API_URL)
