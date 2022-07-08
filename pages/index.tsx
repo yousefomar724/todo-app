@@ -87,7 +87,7 @@ const Home = (props: { tasks: Task[] }) => {
   return (
     <main className='w-screen min-h-screen flex flex-col items-center justify-center bg-[#3a7de0]'>
       <Head>
-        <title>MERN Todo</title>
+        <title>Mongo Todo</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <h1 className='text-3xl text-white my-4'>MERN Todo</h1>
