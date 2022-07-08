@@ -90,7 +90,7 @@ const Home = (props: { tasks: Task[] }) => {
         <title>Mongo Todo</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <h1 className='text-3xl text-white my-4'>MERN Todo</h1>
+      <h1 className='text-3xl text-white my-4'>Mongo Todo</h1>
       <div className='max-w-[600px] px-4 sm:min-w-[600ti] flex flex-col items-center p-5 rounded-lg bg-white shadow-lg'>
         <form onSubmit={addTask} className='flex items-center w-full h-10 mb-3'>
           <input
